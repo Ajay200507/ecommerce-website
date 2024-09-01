@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="productback">
+    <header>
+        <h1 class="headProduct">Products</h1>
+        <button onclick="goBack()" class="btnback">Back to Categories</button>
+    </header>
+    <main>
+        <section class="filters">
+            <h2>Filter by Price</h2>
+            <input type="range" id="priceRange" min="0" max="1000" step="10" oninput="filterByPrice(this.value)">
+            <p>Price: <span id="priceValue">1000</span></p>
+        </section>
+        <section class="product-list" id="productList"></section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>

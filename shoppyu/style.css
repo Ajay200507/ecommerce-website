@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.shopName{
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    padding: 5px;
+    /* margin: 5px; */
+    background-color: aqua;
+    justify-content: center;
+}
+
+
+.bodyContainer{
+    font-family: "Karla", sans-serif;
+    background-color: antiquewhite;
+  
+}
+.productCatogries{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    /* margin-top: 10px ; */
+    /* margin: 100px; */
+    /* margin-left: 30px; */
+    /* font-weight: 500; */
+    /* font-size: 30px; */
+}
+.category{
+    
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-weight: 800;
+
+}
+/* .category2{
+    margin: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-weight: 800;
+
+}
+.category3{
+    margin: 70px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-weight: 800;
+
+} */
+
+.category:hover,
+.category2:hover,
+.category3:hover
+{
+    color: aqua;
+}
+
+.product img{
+    width: 200px;
+    height: 200px;
+}
+.headProduct{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.btnback{
+    background-color: rgb(25, 202, 202);
+    /* float: right; */
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    font-size: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.productback{
+    background-color: antiquewhite;
+}
+@media (max-width: 1024px){
+    .category{
+        /* padding: 40px; */
+        margin-left: 40px;
+        margin-right: 40px;     
+    }
+}
